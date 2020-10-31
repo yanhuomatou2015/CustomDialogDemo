@@ -9,6 +9,7 @@ import kotlinx.android.synthetic.main.dialog_layout.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
 /**
  * Created by wenzhibin(yanhuomatou2015) on 2020/10/31.
+ * 
  */
 class BottomUpDialog :Dialog {
 
