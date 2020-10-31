@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 统一设置button的共同属性 -->
+    <style name="btn_style">
+     <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#148fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    
+
+    <!--自定义Dialog样式  -->
+    <style name="bottom_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--引入自定义的动画 -->
+        <item name="android:windowAnimationStyle">@style/dialog_anim</item>
+    </style>
+
+
+
+    <!--自定义Dialog的入场、出场动画 -->
+    <style name="dialog_anim" parent="android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+
+
+</resources>
