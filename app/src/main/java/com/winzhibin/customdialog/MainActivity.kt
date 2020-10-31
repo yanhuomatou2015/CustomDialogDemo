@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
-
+/**
+ * Created by wenzhibin(yanhuomatou2015) on 2020/10/31.
+ */
 class MainActivity : AppCompatActivity() {
 
     //初始化buttom
